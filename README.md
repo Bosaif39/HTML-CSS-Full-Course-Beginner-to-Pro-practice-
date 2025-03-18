@@ -6,4 +6,4 @@ I'm doing it to review and sharpen my skills in HTML just in case I need it in t
 ## My progress so far:
 
 ## Day 1 (18/3/2024)
-1. HTML Basics
+1. HTML Basics file with a comment
