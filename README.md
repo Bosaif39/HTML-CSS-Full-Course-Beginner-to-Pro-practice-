@@ -7,5 +7,5 @@ I'm doing it to review and sharpen my skills in HTML just in case I need it in t
 ## My progress:
 
 ### Starting date (18/3/2025) end date (??/??/2025)
-1. HTML Basics file with a comment on 18/3/2025
-2. 
+1. HTML Basics file with a comment uploaded on 18/3/2025
+2. CSS Basics file with a comment uploaded on 19/3/2025
