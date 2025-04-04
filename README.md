@@ -11,4 +11,5 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 2. CSS Basics file with a comment uploaded on 19/3/2025
 3. Hovers, Transitions, Shadows file with a comment uploaded on 20/3/2025
 4. Chrome DevTools & CSS Box Model file with a comment uploaded on 22/3/2025
+5. Text Styles file with a comment uploaded on 5/4/2025 
 
