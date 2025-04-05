@@ -4,21 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <title>Chrome DevTools & CSS Box Model</title>
-</head>
-<body>
-
-  <!--
-This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focusing on:
-    - Using inspect option on the browser to get the perfect 
-    - Using inspect option on the browser to get the perfect CSS Box Model (padding/margin)
-
-    Building on the code of the Hovers, Transitions, Shadows file.
-
-    This code is based on the following tutorial
-    And also provides solutions for exercises mentioned in the video at 1:17:30
-    Video: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=
-    Timestamp: 1:03:10 (Section 4. Chrome DevTools & CSS Box Model
-        -->
 
     <style>
         .subscribe-button {
@@ -28,10 +13,10 @@ This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focu
             border-radius: 2px;
             cursor: pointer;
             margin-right: 12px;
-            padding-top:10px;
-            padding-bottom:10px;
-            padding-left:16px;
-            padding-right:16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
             transition: 0.15s;
         }
 
@@ -50,10 +35,10 @@ This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focu
             border-style: solid;
             border-radius: 2px;
             border-width: 1px;
-            padding-top:9px;
-            padding-bottom:9px;
-            padding-left:15px;
-            padding-right:15px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 15px;
+            padding-right: 15px;
             cursor: pointer;
             margin-right: 12px;
             transition: background-color 1s, color 1s;
@@ -75,10 +60,10 @@ This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focu
             color: white;
             border: none;
             border-radius: 20px;
-            padding-top:7px;
-            padding-bottom:7px;
-            padding-left:16px;
-            padding-right:16px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
             cursor: pointer;
             font-weight: bold;
             font-size: 15px;
@@ -94,90 +79,104 @@ This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focu
             background-color: green;
             color: white;
             border: none;
-            padding-top:7px;
-            padding-bottom:7px;
-            padding-left:16px;
-            padding-right:16px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
             box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
             cursor: pointer;
             font-weight: bold;
             font-size: 15px;
             transition: box-shadow 0.15s ease-in-out;
-
         }
 
-        .shadow3d:hover {
-             box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25); 
-             transform: translateY(-3px); 
+            .shadow3d:hover {
+                box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);
+                transform: translateY(-3px);
+            }
 
-        }
-        .shadow3d:active {
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
-            transform: translateY(2px); 
-
+            .shadow3d:active {
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+                transform: translateY(2px);
             }
 
 
-            .stretch {
+        .stretch {
             background-color: green;
             color: white;
             border: none;
-            padding-top:7px;
-            padding-bottom:7px;
-            padding-left:16px;
-            padding-right:16px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
             cursor: pointer;
             font-weight: bold;
             font-size: 15px;
             transition: 1s ease;
         }
 
-        .stretch:hover {
-            padding-top:14px;
-            padding-bottom:14px;
-            padding-left:32px;
-            padding-right:32px;
+            .stretch:hover {
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-left: 32px;
+                padding-right: 32px;
+            }
 
-        }
 
-         
-            .mp {
+        .mp {
             background-color: green;
             color: white;
             border: none;
-            padding-top:7px;
-            padding-bottom:7px;
-            padding-left:16px;
-            padding-right:16px;
-            margin-left:3px;
-            margin-right:3px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
+            margin-left: 3px;
+            margin-right: 3px;
             cursor: pointer;
             font-weight: bold;
             font-size: 15px;
             transition: 1s ease;
         }
 
-        .mp:hover {
-            padding-left:20px;
-            padding-right:20px;
-
-        }
+            .mp:hover {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
 
         .pagination a {
-          color: black;
-          padding: 8px 16px;
-          transition: background-color .3s;
+            color: black;
+            padding: 8px 16px;
+            transition: background-color .3s;
         }
 
-        .pagination a.active {
-          background-color: red;
-          color: white;
-        }
+            .pagination a.active {
+                background-color: red;
+                color: white;
+            }
 
-        .pagination a:hover:not(.active) {background-color: #ddd;}
-
-
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+            }
     </style>
+
+</head>
+<body>
+
+    <!--
+    This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focusing on:
+        - Using inspect option on the browser to get the perfect 
+        - Using inspect option on the browser to get the perfect CSS Box Model (padding/margin)
+
+        Building on the code of the Hovers, Transitions, Shadows file.
+
+        This code is based on the following tutorial
+        And also provides solutions for exercises mentioned in the video at 1:17:30
+        Video: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=
+        Timestamp: 1:03:10 (Section 4. Chrome DevTools & CSS Box Model
+            -->
+
+  
     <button class="subscribe-button">
         SUBSCRIBE
     </button>
@@ -193,31 +192,31 @@ This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focu
     <br />
 
     <div class="pagination">
-    
 
-    <a href="#">1</a>
-    <a href="#">2</a>
-    <a href="#">3</a>
-    <a href="#">4</a>
-    <a href="#">5</a>
 
-</div>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
 
-     <br />
+    </div>
+
+    <br />
     <br />
     <button class="shadow3d">
         shadow
     </button>
     <br />
-     <br />
+    <br />
 
-     <button class="stretch">
+    <button class="stretch">
         Stretch
     </button>
     <br />
     <br />
 
-    
+
     <button class="mp">
         One
     </button>
