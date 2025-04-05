@@ -3,300 +3,235 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Text Styles</title>
+    <title>Chrome DevTools & CSS Box Model</title>
 
     <style>
-
-        p {
-            font-family: Arial;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-
-        .video-title {
-            font-size: 18px;
-            font-weight: bold;
-            width: 280px;
-            line-height: 24px;
-            margin-bottom: 5px;
-        }
-
-        .video-stats {
-            font-size: 14px;
-            color: rgb(96, 96, 96);
-            margin-bottom: 20px;
-        }
-
-        .video-author {
-            font-size: 14px;
-            color: rgb(96, 96, 96);
-            margin-bottom: 20px;
-        }
-
-        .video-description {
-            font-size: 14px;
-            width: 280px;
-            color: rgb(96, 96, 96);
-            line-height: 22px;
-            margin-bottom: 100px;
-        }
-
-        .apple-text {
-            margin-bottom: 20px;
-            font-size: 14px;
+        .subscribe-button {
+            background-color: rgb(204, 0, 0);
             color: white;
-            text-align: center;
-            padding-top: 18px;
-            padding-bottom: 18px;
-            background-color: rgb(227, 65, 64);
-        }
-
-        .span-thing {
+            border: none;
+            border-radius: 2px;
             cursor: pointer;
+            margin-right: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            transition: 0.15s;
         }
 
-            .span-thing:hover {
-                text-decoration: underline;
+            .subscribe-button:hover {
+                opacity: 0.8;
             }
 
-        .tahoma-text {
-            margin-bottom: 20px;
-            font-family: Tahoma;
-            font-size: 20px;
-            font-weight: bold;
+            .subscribe-button:active {
+                opacity: 0.7;
+            }
+
+        .join-button {
+            background-color: white;
+            border-color: rgb(6, 95, 212);
+            color: rgb(41,118,211);
+            border-style: solid;
+            border-radius: 2px;
+            border-width: 1px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 15px;
+            padding-right: 15px;
+            cursor: pointer;
+            margin-right: 12px;
+            transition: background-color 1s, color 1s;
         }
 
-        .htmler1 {
-            margin-bottom: 5px;
-            font-family: Verdana;
-            font-size: 15px;
-            font-weight: bold;
-        }
+            .join-button:hover {
+                background-color: rgb(41,118,211);
+                color: white;
+            }
 
-        .htmler2 {
-            font-family: Verdana;
-            font-size: 14px;
-            color: rgb(96, 96, 96);
-            margin-bottom: 20px;
-        }
+            .join-button:active {
+                opacity: 0.5;
+            }
 
-        .htmler3 {
-            font-family: Verdana;
-            font-size: 14px;
-            width: 260px;
-            line-height: 22px;
-            margin-bottom: 20px;
-        }
 
-        .htmler4 {
-            font-family: Verdana;
-            background-color: rgb(46,164,79);
+
+        .tweet-button {
+            background-color: rgb(29, 155, 240);
             color: white;
             border: none;
-            border-radius: 8px;
-            height: 35px;
-            width: 120px;
+            border-radius: 20px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
             cursor: pointer;
-            transition: box-shadow 0.15s;
-            margin-bottom: 20px;
-        }
-
-        .deals {
-            font-size: 25px;
             font-weight: bold;
-        }
-
-        .deals2 {
-            font-style: italic;
-            color: red;
-            margin-bottom: 20px;
-        }
-
-        .shopping {
-            text-align: center;
-            font-size: 25px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .shopping2 {
-            text-align: center;
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }
-
-        .shopping3 {
-            text-align: center;
-            margin-bottom: 20px;
-            margin-top: 20px;
-            color: cornflowerblue;
-        }
-
-        .mac {
             font-size: 15px;
-            text-align: center;
-            margin-bottom: 5px;
-            margin-top: 5px;
-            color: darkgoldenrod;
+            transition: box-shadow 0.15s;
         }
 
-        .mac2 {
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-
-        .mac3 {
-            font-size: 30px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-
-        .mac4 {
-            text-align: center;
-            margin-bottom: 5px;
-            margin-top: 5px;
-            color: rgb(96, 96, 96);
-        }
+            .tweet-button:hover {
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+            }
 
 
-        .mac5 {
-            background-color: blue;
+        .shadow3d {
+            background-color: green;
             color: white;
             border: none;
-            border-radius: 25px;
-            height: 35px;
-            width: 65px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
             cursor: pointer;
-            transition: box-shadow 0.15s;
-            /* top right bottom left */
-            margin: 0 auto 20px auto;
-            display: block;
-        }
-
-        .usd {
-            font-size: 30px;
-        }
-
-        .usd2 {
-            color: yellowgreen;
-        }
-
-        .usd3 {
-            color: rgb(96, 96, 96);
-            margin-bottom: 25px;
-        }
-
-        .usd4 {
-            font-size: 15px;
-            color: rgb(96, 96, 96);
-        }
-
-        .usd5 {
-            color: red;
-        }
-
-        .freeCode {
             font-weight: bold;
-            margin-bottom: 5px;
+            font-size: 15px;
+            transition: box-shadow 0.15s ease-in-out;
         }
 
-        .freeCode2 {
-            width: 500px;
-            margin-bottom: 10px;
+            .shadow3d:hover {
+                box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);
+                transform: translateY(-3px);
+            }
+
+            .shadow3d:active {
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+                transform: translateY(2px);
+            }
+
+
+        .stretch {
+            background-color: green;
+            color: white;
+            border: none;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+            transition: 1s ease;
         }
 
-        .freeCode3 {
-            color: rgb(99, 96, 96);
+            .stretch:hover {
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-left: 32px;
+                padding-right: 32px;
+            }
+
+
+        .mp {
+            background-color: green;
+            color: white;
+            border: none;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
+            margin-left: 3px;
+            margin-right: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+            transition: 1s ease;
         }
 
-        .freeCode4 {
-            color: cornflowerblue;
+            .mp:hover {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+        .pagination a {
+            color: black;
+            padding: 8px 16px;
+            transition: background-color .3s;
         }
+
+            .pagination a.active {
+                background-color: red;
+                color: white;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+            }
     </style>
+
 </head>
 <body>
 
     <!--
-    This page is a practice of Text Styles focusing on:
+    This page is a practice of the Chrome DevTools & CSS Box Model for buttons, focusing on:
+        - Using inspect option on the browser to get the perfect 
+        - Using inspect option on the browser to get the perfect CSS Box Model (padding/margin)
 
-        - Font styling
-        - Spacing between paragraphs (margin)
+        Building on the code of the Hovers, Transitions, Shadows file.
 
         This code is based on the following tutorial
-        Video: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2664s
-        Timestamp: 1:17:30 (Section 5. Text Styles)
-    -->
+        And also provides solutions for exercises mentioned in the video at 1:17:30
+        Video: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=
+        Timestamp: 1:03:10 (Section 4. Chrome DevTools & CSS Box Model
+            -->
 
-    
+  
+    <button class="subscribe-button">
+        SUBSCRIBE
+    </button>
 
+    <button class="join-button">
+        JOIN
+    </button>
 
-    <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai
-    </p>
+    <button class="tweet-button">
+        TWEET
+    </button>
+    <br />
+    <br />
 
-    <p class="video-stats">
-        3.4M views &#183; 6 months ago
-    </p>
-
-    <p class="video-author">
-        Marques Brownlee  &#10003;
-    </p>
-
-    <p class="video-description">
-        Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar
-    </p>
-
-    <p class="apple-text">
-        Shop early for the best selection of holiday favourites. <span class="span-thing">Shop now &#62;</span>
-    </p>
+    <div class="pagination">
 
 
-    <!--
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
 
-        This section provides solutions for exercises mentioned in the video at 1:52:03
+    </div>
 
-        The code below is not done along with the tutorial focusing on:
-         - Font styling
-         - Spacing between paragraphs (margin)
+    <br />
+    <br />
+    <button class="shadow3d">
+        shadow
+    </button>
+    <br />
+    <br />
 
-        Reference: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1203s
-        Timestamp: 1:52:03  (Section 5. Text Styles)
+    <button class="stretch">
+        Stretch
+    </button>
+    <br />
+    <br />
 
-    -->
 
-    <p class="tahoma-text">This is Tahoma Font</p>
+    <button class="mp">
+        One
+    </button>
 
-    <p class="htmler1">HTMl CSS Course</p>
-    <p class="htmler2"> Begginner to Pro</p>
-    <p class="htmler3">In this course, we'll learn the skills you need to become a developer.</p>
-    <button class="htmler4">Get Started</button>
+    <button class="mp">
+        Two
+    </button>
 
-    <p class="deals">Biggest Deals of the Year!</p>
-    <p class="deals2">Sales end Tuesday</p>
+    <button class="mp">
+        Three
+    </button>
 
-    <p class="shopping">Shopping for your business?</p>
-    <p class="shopping2">See how Apple at Work can help.</p>
-    <p class="shopping3">Learn more &#62; </p>
+    <br />
+    <br />
 
-    <p class="mac">New</p>
-    <p class="mac2">MacBook Pro</p>
-    <p class="mac3">Supercharged for pros.</p>
-    <p class="mac4">From &#36;1999</p>
-    <button class="mac5">Buy</button>
-
-    <p class="usd">1,049.61 <span class="usd4">USD</span></p>
-    <p class="usd2">+18.05(1.75%) today</p>
-    <p class="usd3">After hours 1,048.00 <span class="usd5">-1.61(0.15%)</span></p>
-
-    <p class="freeCode">freeCodeCamp.org <span class="freeCode3">@freeCodeCamp 1h</span></p>
-    <p class="freeCode2">As a web developer, you'll want to make your projects easy to use and navigate around.</p>
-    <p >Here<span class="freeCode4">@chp_it</span> outlines the top skills new developers should have.</p>
 
 </body>
 </html> 
