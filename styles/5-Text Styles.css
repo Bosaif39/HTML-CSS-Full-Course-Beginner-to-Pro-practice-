@@ -1,0 +1,212 @@
+
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 14px;
+    width: 280px;
+    color: rgb(96, 96, 96);
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: rgb(227, 65, 64);
+}
+
+.span-thing {
+    cursor: pointer;
+}
+
+    .span-thing:hover {
+        text-decoration: underline;
+    }
+
+.tahoma-text {
+    margin-bottom: 20px;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.htmler1 {
+    margin-bottom: 5px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.htmler2 {
+    font-family: Verdana;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.htmler3 {
+    font-family: Verdana;
+    font-size: 14px;
+    width: 260px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.htmler4 {
+    font-family: Verdana;
+    background-color: rgb(46,164,79);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    margin-bottom: 20px;
+}
+
+.deals {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.deals2 {
+    font-style: italic;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.shopping {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.shopping2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.shopping3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+
+.mac {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: darkgoldenrod;
+}
+
+.mac2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.mac3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.mac4 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: rgb(96, 96, 96);
+}
+
+
+.mac5 {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    width: 65px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    /* top right bottom left */
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.usd {
+    font-size: 30px;
+}
+
+.usd2 {
+    color: yellowgreen;
+}
+
+.usd3 {
+    color: rgb(96, 96, 96);
+    margin-bottom: 25px;
+}
+
+.usd4 {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+.usd5 {
+    color: red;
+}
+
+.freeCode {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.freeCode2 {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.freeCode3 {
+    color: rgb(99, 96, 96);
+}
+
+.freeCode4 {
+    color: cornflowerblue;
+}
