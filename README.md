@@ -12,5 +12,4 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 3. **Hovers, Transitions, Shadows** file with a comment uploaded on 20/3/2025
 4. **Chrome DevTools & CSS Box Model** file with a comment uploaded on 22/3/2025
 5. **Text Styles** file with a comment uploaded on 5/4/2025
-6. **The HTML Structure**: modify the files and add the correct HTML Structure, extract and store the CSS codes in a different folder called *styles*. Uploaded on 5/4/2025
-
+6. **The HTML Structure**: modify the files and add the correct HTML Structure, extract and store the CSS codes in a different folder called *styles*. Uploaded on 5/4/2025 **(No files uploaded for this section)**
