@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Images and Text Boxes</title>
+    <style>
+        .thumbnail1 {
+            width: 300px;
+            display: block;
+
+
+        }
+
+        .searcher {
+            font-size: 20px;
+            margin-left: 12px;
+            display: block;
+
+
+
+        }
+
+        .video-title {
+
+            width: 300px;
+
+        } 
+
+        .video-author ,.video-stats {
+            display: inline-block;
+
+        }
+
+        .boxes {
+            font-size: 20px;
+            display: block;
+
+        }
+
+        .chat {
+            width: 200px;
+            vertical-align:middle ;
+            display: inline-block;
+        }
+
+        .searcher3 {
+            font-size: 20px;
+            width: 500px;
+            border-radius: 20px;
+            border-style: none;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+            display: block;
+            margin: auto;
+
+
+        }
+
+        .google {
+            display: block;
+
+            width: 200px;
+            margin: auto;
+        }
+
+        .github {
+            background-color: rgb(46, 93, 164);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            height: 35px;
+            width: 200px;
+            cursor: pointer;
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        .signUp {
+            display: inline-block;
+            width: 100px;
+            border-radius: 5px;
+            border: solid;
+            border-color: rgb(202, 202, 202);
+            margin-bottom: 10px;
+
+            
+        }
+        .signUp2 {
+            display: block;
+            width: 200px;
+            border-radius: 5px;
+            border: solid;
+            border-color: rgb(202, 202, 202);
+            margin-bottom: 10px;
+
+        }
+        .uber{
+            display: block;
+            border: none;
+            margin-bottom: 10px;
+            background-color: rgb(202, 202, 202);
+            width: 450px;
+            height: 50px;
+
+
+        }
+
+
+        .uberbtn1{
+            background-color: black;
+            color: white;
+            border: none;
+            height: 35px;
+            width: 200px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 10px;
+
+        }
+        .uberbtn2{
+            background-color: rgb(202, 202, 202);
+            color: black;
+            border: none;
+            height: 35px;
+            width: 200px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 10px;
+
+        }
+
+
+      
+    </style>
+
+</head>
+<body>
+
+    <!--
+    This page is a practice of Images and CSS Display Property focusing on:
+
+        - display : inline-block, block
+
+        This code is based on the following tutorial
+        Video: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2664s
+        Timestamp: 2:25:42 (Section  8. CSS Display Property)
+    -->
+
+    <input class="searcher" type="text" placeholder="search">
+
+
+<img class="thumbnail1" src="/images/thumbnail-1.webp">
+
+<p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+<p class="video-author">Marques Brownlee</p>
+
+<p class="video-stats">3.4M views &#183; 6 months ago</p>
+
+
+    <!--
+        This section provides solutions for exercises mentioned in the video at 2:34:45 
+
+        The code below is not done along with the tutorial focusing on:
+        - display : inline-block, block
+
+        Reference: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1203s
+        Timestamp: 2:34:45 (Section  8. CSS Display Property)
+    -->
+    <br><br><br>
+
+<input class="boxes" type="text" placeholder="Name">
+<input class="boxes" type="text" placeholder="Email">
+<br><br><br>
+<p class="chat">Thanks for chatting with our customer support. Would you like to take out surverey?</p>
+<button>Yes</button>
+<button>No</button>
+<br><br><br>
+
+<img class="google" src="/images/Google-Logo.png">
+
+<input class="searcher3" type="text" placeholder="Search Google or type a URL">
+<br><br><br>
+
+<input class="signUp" type="text" placeholder="First name">
+<input class="signUp" type="text" placeholder="Last name">
+<input class="signUp2" type="text" placeholder="Email">
+
+<button class="github">Sign up</button>
+
+<br><br><br>
+<p style="font-size: x-large;">Requst a ride now</p>
+<input class="uber" type="text" placeholder="Enter pickup location">
+<input class="uber" type="text" placeholder="Enter destination">
+
+<button class="uberbtn1">Requst now</button>
+<button class="uberbtn2">Schedule for later</button>
+
+
+</body>
+</html> 
