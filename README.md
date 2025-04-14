@@ -15,6 +15,6 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 6. **The HTML Structure**: modify the files and add the correct HTML Structure, extract and store the CSS codes in a different folder called *styles*. Uploaded on 5/4/2025 **(No files uploaded for this section)**
 7. **Images and Text Boxes** file with a comment uploaded on 13/4/2025
 8. **CSS Display Property** file with a comment uploaded on 13/4/2025
-9.  **The div Element** file with a comment uploaded on 13/4/2025
-
+9. **The div Element** file with a comment uploaded on 13/4/2025
+10. **Nested Layouts Technique.html**  file with a comment uploaded on 14/4/2025
 
