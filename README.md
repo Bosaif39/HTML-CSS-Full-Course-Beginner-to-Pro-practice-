@@ -17,4 +17,5 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 8. **CSS Display Property** file with a comment uploaded on 13/4/2025
 9. **The div Element** file with a comment uploaded on 13/4/2025
 10. **Nested Layouts Technique**  file with a comment uploaded on 14/4/2025
+11. **CSS Grid** files(two files) with a comment uploaded on 14/4/2025
 
