@@ -1,0 +1,127 @@
+
+        .thumbnail1 {
+            width: 300px;
+            display: block;
+
+
+        }
+
+        .searcher {
+            font-size: 20px;
+            margin-left: 12px;
+            display: block;
+
+
+
+        }
+
+        .video-title {
+
+            width: 300px;
+
+        } 
+
+        .video-author ,.video-stats {
+            display: inline-block;
+
+        }
+
+        .boxes {
+            font-size: 20px;
+            display: block;
+
+        }
+
+        .chat {
+            width: 200px;
+            vertical-align:middle ;
+            display: inline-block;
+        }
+
+        .searcher3 {
+            font-size: 20px;
+            width: 500px;
+            border-radius: 20px;
+            border-style: none;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+            display: block;
+            margin: auto;
+
+
+        }
+
+        .google {
+            display: block;
+
+            width: 200px;
+            margin: auto;
+        }
+
+        .github {
+            background-color: rgb(46, 93, 164);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            height: 35px;
+            width: 200px;
+            cursor: pointer;
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        .signUp {
+            display: inline-block;
+            width: 100px;
+            border-radius: 5px;
+            border: solid;
+            border-color: rgb(202, 202, 202);
+            margin-bottom: 10px;
+
+            
+        }
+        .signUp2 {
+            display: block;
+            width: 200px;
+            border-radius: 5px;
+            border: solid;
+            border-color: rgb(202, 202, 202);
+            margin-bottom: 10px;
+
+        }
+        .uber{
+            display: block;
+            border: none;
+            margin-bottom: 10px;
+            background-color: rgb(202, 202, 202);
+            width: 450px;
+            height: 50px;
+
+
+        }
+
+
+        .uberbtn1{
+            background-color: black;
+            color: white;
+            border: none;
+            height: 35px;
+            width: 200px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 10px;
+
+        }
+        .uberbtn2{
+            background-color: rgb(202, 202, 202);
+            color: black;
+            border: none;
+            height: 35px;
+            width: 200px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 10px;
+
+        }
+
+
