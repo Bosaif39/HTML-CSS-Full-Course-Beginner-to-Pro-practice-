@@ -126,11 +126,13 @@ color: gray;
     display: inline-block;
     padding: 20px 20px 20px 20px;
 }
+
 .namer {
     font-weight: bold;
     font-size: larger;
     color: black;
 }
+
 .namer2 {
     color: gray;
     
