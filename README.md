@@ -7,19 +7,20 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 ## My progress:
 
 ### Starting date (18/3/2025) end date (??/??/2025)
-1. **HTML Basics** file with comments uploaded on 18/3/2025
-2. **CSS Basics** file with comments uploaded on 19/3/2025
-3. **Hovers, Transitions, Shadows** file with comments uploaded on 20/3/2025
-4. **Chrome DevTools & CSS Box Model** file with comments uploaded on 22/3/2025
-5. **Text Styles** file with comments uploaded on 5/4/2025
+1. **HTML Basics** files with comments uploaded on 18/3/2025
+2. **CSS Basics** files with comments uploaded on 19/3/2025
+3. **Hovers, Transitions, Shadows** files with comments uploaded on 20/3/2025
+4. **Chrome DevTools & CSS Box Model** files with comments uploaded on 22/3/2025
+5. **Text Styles** files with comments uploaded on 5/4/2025
 6. **The HTML Structure**: modify the files and add the correct HTML Structure, extract and store the CSS codes in a different folder called *styles*. Uploaded on 5/4/2025 **(No files uploaded for this section)**
-7. **Images and Text Boxes** file with comments uploaded on 13/4/2025
-8. **CSS Display Property** file with comments uploaded on 13/4/2025
-9. **The div Element** file with comments uploaded on 13/4/2025
-10. **Nested Layouts Technique**  file with comments uploaded on 14/4/2025
-11. **CSS Grid** files(two files) with comments uploaded on 14/4/2025
-12. **Flexbox** files(two files) with comments uploaded on 15/4/2025
-13. **Nested Flexbox** file with comments uploaded on 15/4/2025
-14. **CSS position** file with comments uploaded on 16/4/2025
+7. **Images and Text Boxes** files with comments uploaded on 13/4/2025
+8. **CSS Display Property** files with comments uploaded on 13/4/2025
+9. **The div Element** files with comments uploaded on 13/4/2025
+10. **Nested Layouts Technique**  files with comments uploaded on 14/4/2025
+11. **CSS Grid** files with comments uploaded on 14/4/2025
+12. **Flexbox** files with comments uploaded on 15/4/2025
+13. **Nested Flexbox** files with comments uploaded on 15/4/2025
+14. **CSS position** files with comments uploaded on 16/4/2025
+15. **Position Absolute and Relative** files with comments uploaded on 16/4/2025
 
 
