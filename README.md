@@ -22,5 +22,6 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 13. **Nested Flexbox** files with comments uploaded on 15/4/2025
 14. **CSS position** files with comments uploaded on 16/4/2025
 15. **Position Absolute and Relative** files with comments uploaded on 16/4/2025
+16. **Finish the Project** files with comments uploaded on 16/4/2025
 
 
