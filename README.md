@@ -6,7 +6,7 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 
 ## My progress:
 
-### Starting date (18/3/2025) end date (??/??/2025)
+### Starting date (18/3/2025) end date (17/4/2025)
 1. **HTML Basics** files with comments uploaded on 18/3/2025
 2. **CSS Basics** files with comments uploaded on 19/3/2025
 3. **Hovers, Transitions, Shadows** files with comments uploaded on 20/3/2025
@@ -23,5 +23,11 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 14. **CSS position** files with comments uploaded on 16/4/2025
 15. **Position Absolute and Relative** files with comments uploaded on 16/4/2025
 16. **Finish the Project** files with comments uploaded on 16/4/2025
+17. **More CSS Features** files with comment uploaded on 17/4/2025
+
+### The course is completed!
+
+    
+
 
 
