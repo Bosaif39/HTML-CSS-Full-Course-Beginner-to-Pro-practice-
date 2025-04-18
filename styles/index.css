@@ -1,0 +1,25 @@
+body {
+    font-family: Roboto, Arial;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  h1, h2, h3 {
+    color: green;
+  }
+  a {
+    color: darkcyan;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    padding-left: 1.5rem;
+  }
+  strong {
+    color: black;
+  }
