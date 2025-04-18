@@ -2,7 +2,7 @@
 ## Overview
 This is a [YT course](https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1059s) which is recommended via [Roadmap.sh](https://roadmap.sh/frontend) on frontend roadmap, click CSS node and see (Free Resources).
 
-I'm doing it to review and sharpen my skills in HTML just in case I need them in the future and, hence, it's an easy thing, so I'm not using any LLMs like ChatGBT or Deepseek for HTML or CSS. However, I'm using the LLMs for comments and documentation only.
+I'm doing it to review and sharpen my skills in HTML just in case I need them in the future.
 
 ## My progress:
 
