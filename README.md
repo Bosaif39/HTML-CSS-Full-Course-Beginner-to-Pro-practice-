@@ -24,6 +24,7 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 15. **Position Absolute and Relative** files with comments uploaded on 16/4/2025
 16. **Finish the Project** files with comments uploaded on 16/4/2025
 17. **More CSS Features** files with comment uploaded on 17/4/2025
+18. **index page** I added an index page that link to all other pages of this project on 18/4/2025
 
 ### The course is completed!
 ### [I upload my work here](https://bosaif39.github.io/HTML-CSS-Full-Course-Beginner-to-Pro-practice-/index)
