@@ -26,7 +26,7 @@ I'm doing it to review and sharpen my skills in HTML just in case I need them in
 17. **More CSS Features** files with comment uploaded on 17/4/2025
 
 ### The course is completed!
-### [I upload my work here](https://bosaif39.github.io/HTML-CSS-Full-Course-Beginner-to-Pro-practice-/)
+### [I upload my work here](https://bosaif39.github.io/HTML-CSS-Full-Course-Beginner-to-Pro-practice-/index)
 
     
 
