@@ -1,4 +1,4 @@
-# HTML & CSS Full Course Beginner to Pro practice
+# HTML & CSS Full Course Beginner to Pro Practice
 ## Overview
 This is a [YT course](https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1059s) which is recommended via [Roadmap.sh](https://roadmap.sh/frontend) on frontend roadmap, click CSS node and see (Free Resources).
 
